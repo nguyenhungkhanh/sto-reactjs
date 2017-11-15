@@ -1,0 +1,1211 @@
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-y: scroll !important;
+}
+#our-works .modal-dialog-index a {
+  color: #ff6644 !important;
+}
+#our-works .modal-dialog-index a:hover {
+  color: ff9d00 !important;
+}
+#our-works .content-our-works {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.modal-open {
+  padding: 0 !important;
+}
+section {
+  min-height: 100vh;
+  position: relative;
+}
+#preloader {
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:99999999999;
+  width:100%;
+  height:100%;
+  overflow:visible;
+  background: #fff url('../images/AjaxLoader.gif') no-repeat center center;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff6644;
+}
+.btn .caret {
+    margin-left: 5px;
+}
+.center-align {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.hr {
+  background: #b7b7b7;
+  width: 260px;
+  height: 1px;
+  margin: auto;
+}
+.progress {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.progress-bar {
+  background: #ff6644;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #ffdf8e; /* Old browsers */
+  background: -moz-linear-gradient(left, #ffdf8e 0%, #fcb900 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffdf8e 0%,#fcb900 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffdf8e 0%,#fcb900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf8e', endColorstr='#fcb900',GradientType=1 ); /* IE6-9 */
+}
+.help-block {
+  color: red;
+}
+.hr-content {
+  width: 80px;
+  height: 5px;
+  background: #ff6644;
+  margin: auto;
+  margin-top: -3px;
+}
+header nav {
+  position: fixed;
+  z-index: 1;
+  height: 90px;
+}
+nav#nav {
+  z-index: 10;
+}
+main #banner {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  color: white;
+}
+.video-background {
+  height: 100%;
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+main #banner #banner-content p#banner-title {
+  font-size: 84px;
+  text-transform: uppercase;
+}
+main #banner #banner-content p#sologan {
+  font-size: 24px;
+}
+.navbar-default {
+  transition: background 0.5s linear;
+  position: fixed;
+  left: 0; right: 0;
+  border: none;
+  margin-bottom: 0;
+}
+.navbar-default .container-fluid {
+  transition: background 0.5s linear;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+  right: 0;
+}
+.navbar-default .navbar-toggle {
+  border-color: 0;
+  background: 0 !important;
+}
+.navbar-default .navbar-toggle:hover span {
+  background: #fff !important;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  margin-right: 0;
+}
+.navbar-default a {
+  font-family: bold;
+}
+.navbar-brand {
+  font-size: 50px;
+}
+.navbar-default a.navbar-brand {
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  padding: 25px 0;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ff6644;
+}
+.navbar-default .navbar-right li a {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px 0px;
+  margin-left: 20px;
+}
+.navbar-default .navbar-right li a:hover {
+  color: white;
+}
+.navbar-default .navbar-right li a::after {
+  content: '';
+  margin-top: 15px;
+  width: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .5s;
+  height: 3px;
+  background: #ff6644;
+  display: block;
+}
+.navbar-default .navbar-right li a.nav-active::after,
+.navbar-default .navbar-right li a:not(.nav-active):hover::after {
+  width: 100%;
+}
+#banner-content {
+  width: 100%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p#about {
+  font-size: 35px;
+}
+p#about .about-bold {
+  font-weight: 700;
+}
+.navbar-default .navbar-right li a.nav-active {
+  color: #ff6644;
+}
+
+main #services .services-content {
+  padding-top: 40px;
+}
+main #services .services-content .services-item {
+  padding: 30px 0;
+}
+main #services .services-content .services-item p#item-title {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 22px;
+  font-weight: bold !important;
+}
+main #services .services-content .services-item p#item-description {
+  font-size: 18px;
+  max-width: 400px;
+  margin: auto;
+}
+
+main #our-stats {
+  color: white;
+  height: 100vh;
+  position: relative;
+  /* min-height: 465px; */
+  background: url('../images/cover-infor.jpg') top no-repeat fixed;
+  background-size: cover;
+}
+main #stats .content-stats p#number {
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+main #stats .content-stats {
+  padding: 25px 0;
+}
+main #stats .content-stats p#description {
+  font-size: 18px;
+}
+main #our-stats #quotes {
+  display: inline-block;
+  margin-top: 30px;
+}
+#our-works {
+  padding: 110px 0;
+}
+#our-works-title {
+  position: relative;
+  display: flex;
+}
+#our-works-title .navbar-nav {
+    position: absolute;
+    right: 0;
+}
+#our-works-title .navbar-right {
+  position: absolute;
+  right: 0;
+}
+#our-works-title a, #products .products-main .container-fluid .our-projects #our-works-title ul li a {
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+}
+#our-works-title ul a:hover, #products .products-main .container-fluid .our-projects #our-works-title ul li a:hover {
+  color: white;
+  background: #ff6644;
+}
+#our-works .hr {
+  width: 200px;
+  margin: 0;
+}
+#our-works .hr-content {
+  margin: -3px 0 0 0;
+}
+
+#quotes{
+	/* background: url('../images/cover-2.jpg') fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+  -webkit-background-size: cover;
+  height: 440px;
+	background-size: cover;
+	color: #ccc;
+	position: relative; */
+}
+#quotes .fa.fa-arrow-right, #quotes .fa.fa-arrow-left {
+    position: relative;
+    top: 50%;
+}
+#quotes .fa.fa-arrow-right {
+    right: 0;
+}
+#quotes .carousel-control {
+    position: initial;
+}
+#quotes .group-nav-slider {
+    margin-top: 10px;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+}
+#quotes .group-nav-slider #nav-slider-next, #quotes .group-nav-slider #nav-slider-prev {
+    padding: 5px; padding-top: 3px;
+    background: #ccc;
+    color: black;
+    margin-top: 0;
+    border-radius: 5px;
+    font-size: 15px; 
+    margin: 0 5px;
+}
+#quotes p#feedback {
+  position: relative;
+  font-style: italic;
+  min-height: 45px;
+  padding: 0 15px;
+}
+#quotes blockquote {
+  font-size: 16px;
+  border-left: 0;
+}
+#quotes .vertical-align {
+  width: 100%;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main #our-skills {
+  padding-top: 100px;
+  position: relative;
+  /* height: 100vh; */
+  /* min-height: 720px; */
+}
+main #our-skills p#our-skills-description {
+  font-size: 16px;
+}
+main #our-skills-content .skill .name-skill {
+  float: left;
+}
+main #our-skills-content .content {
+  position: relative;
+}
+main #our-skills .skills-group {
+  padding-top: 50px;
+}
+main #our-skills #content-right {
+  padding-bottom: 50px;
+}
+main #stats .footer-our-skills {
+  position: relative;
+  max-height: 350px;
+  padding-top: 25px;
+  clear: both;
+}
+main #our-skills .carousel-control {
+  top: 50px;
+  background: none !important;
+}
+main #stats .footer-our-skills .content {
+  position: relative;
+}
+main #stats .footer-our-skills #item {
+  align-self: center;
+}
+.slick-dots li.slick-active button:before {
+  color: #ff6644 !important;
+}
+#percent-web, #percent-ios, #percent-android, #percent-design {
+  background: #f9de9a; /* Old browsers */
+  background: -moz-linear-gradient(left, #f9de9a 1%, #fccd4d 50%, #f8b500 51%, #f9ba18 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #f9de9a 1%,#fccd4d 50%,#f8b500 51%,#f9ba18 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #f9de9a 1%,#fccd4d 50%,#f8b500 51%,#f9ba18 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#progress {
+  width: 100%;
+  border-radius: 5px;
+  height: 15px;
+  background: #f6f8f9;
+}
+@keyframes progressweb {
+    from {width: 0%}
+    to {width: 90%}
+}
+@keyframes progressios {
+  from {width: 0%}
+  to {width: 85%}
+}
+@keyframes progressandroid {
+  from {width: 0%}
+  to {width: 90%}
+}
+@keyframes progressdesign {
+  from {width: 0%}
+  to {width: 70%}
+}
+.skill {
+    margin-bottom: 20px;
+}
+#percent-web, #percent-ios, #percent-android, #percent-design {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9f68+0,ff9f68+30,ff670f+100 */
+  background: #ff9f68; /* Old browsers */
+  background: -moz-linear-gradient(left, #ff9f68 0%, #ff9f68 30%, #ff670f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff9f68 0%,#ff9f68 30%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff9f68 0%,#ff9f68 30%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9f68', endColorstr='#ff670f',GradientType=1 ); /* IE6-9 */
+}
+main #our-skills #percent-web {
+  background: linear-gradient(to right, #ff6644 0%, #ff670f 100%);
+  border-radius: 5px;
+  width: 0%;
+  height: 100%;
+  animation: progressweb 2s forwards;
+}
+main #our-skills #percent-ios {
+  background: linear-gradient(to right, #ff6644 0%, #ff670f 100%);
+  border-radius: 5px;
+  width: 0%;
+  height: 100%;
+  animation: progressios 2s forwards;
+}
+main #our-skills #percent-android {
+  background: linear-gradient(to right, #ff6644 0%, #ff670f 100%);
+  border-radius: 5px;
+  width: 0%;
+  height: 100%;
+  animation: progressandroid 2s forwards;
+}
+main #our-skills #percent-design {
+  background: linear-gradient(to right, #ff6644 0%, #ff670f 100%);
+  border-radius: 5px;
+  width: 00%;
+  height: 100%;
+  animation: progressdesign 2s forwards;
+}
+
+#content-left {
+  position: absolute;
+  bottom: 0;
+}
+main #about-us {
+  background: #26262b;
+  color: white;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+main #about-us p#title {
+  font-size: 36px;
+  padding-bottom: 35px;
+  color: #ff6644;
+}
+main #about-us .new-blog {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+main .new-blog:hover .content-new-blog {
+  transform: translateY(-100%);
+}
+main #about-us .content-blog {
+  position: relative;
+}
+main #about-us .content-new-blog {
+  transition: transform .5s;
+  position: absolute;
+  padding: 15px;
+  align-self: center;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,919191+85,999999+100 */
+background: #eaeaea; /* Old browsers */
+background: -moz-linear-gradient(top, #eaeaea 0%, #919191 85%, #999999 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #eaeaea 0%,#919191 85%,#999999 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #eaeaea 0%,#919191 85%,#999999 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#999999',GradientType=0 ); /* IE6-9 */
+}
+main #about-us .content-new-blog p {
+  font-size: 18px;
+  text-align: left;
+}
+main #about-us p#date-new-blog {
+  color: #838385;
+}
+main #about-us #quotes {
+  height: initial !important;
+  background: none;
+}
+footer {
+  background: #1e1e22;
+  height: 85px;
+}
+footer .container {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+footer .footer-left i {
+  font-size: 25px !important;
+  margin: 0 5px;
+  color: rgb(110, 110, 111);
+}
+
+#our-works .item {
+  cursor: pointer;
+  background: #fff;
+  height: 250px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#our-works .item .overlay h3 {
+  margin-top: 10px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  bottom: top;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  display: block;
+}
+#our-works .item .overlay {
+  opacity: 0;
+  height: 100%;
+  color: black !important;
+  background: #ff6644;
+  bottom: 0;
+  /* position: absolute; */
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all .6s linear;
+  transform: rotateY(180deg) scale(0.5,0.5);
+}
+#our-works .item:hover {
+  opacity: 0.7;
+}
+#our-works .item:hover .overlay {
+  transform: rotateY(0deg) scale(1,1);
+  border: 3px solid #ccc;
+  opacity: .8;
+}
+
+/* Hire-page */
+#hire-page .banner-hire {
+  position: relative;
+  background: url(../images/hire-page/banner.jpg) fixed;
+  background-size: cover;
+  background-position: center;
+}
+#hire-page .banner-hire .content, #products .banner-products .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#hire-page .banner-hire .content h1, #products .banner-products .content h1 {
+  font-size: 72px;
+}
+#hire-page .main-hire {
+  padding: 50px 0;
+}
+#hire-page .main-hire .hire-item {
+  margin: 40px 0;
+  padding: 30px 0;
+  height: initial;
+  border: 1px solid #f0f0f0;
+  border-radius: 3px;
+}
+#hire-page .main-hire .hire-item .thumb-hire img {
+  width: 370px;
+  height: 200px;
+  border-radius: 5px;
+  transition: transform 0.5s linear;
+}
+#hire-page .main-hire .hire-item .thumb-hire img:hover {
+  transform: scale(1.03);
+}
+#hire-page .main-hire .hire-item .group-btn button {
+  float: right;
+  width: 120px;
+  background: #ff6644;
+  color: white;
+  font-size: 18px;
+  border-radius: 50px;
+}
+#hire-page .main-hire .hire-item .group-btn button:first-child {
+  margin-bottom: 20px;
+}
+
+
+/* Products */
+#products .banner-products {
+  position: relative;
+  height: 490px;
+  background: url(../images/hire-page/banner.jpg) fixed;
+  background-size: cover;
+  background-position: center;
+}
+#products h1 {
+  margin-top: 0;
+}
+#products .about-us {
+  padding: 100px 0 20px 0;
+}
+#products .about-us .row .item-image {
+  background-size: cover !important;
+  background-position: center !important;
+}
+#products .about-us .row .item-image:last-child {
+  padding-right: 0;
+}
+#products .products-main .thumb-products > img {
+  width: 100%;
+  max-width: 572px;
+  max-height: 572px;
+}
+#products .products-main .thumb-products .col-md-4:first-child {
+  padding-left: 0;
+}
+#products .products-main .thumb-products .col-md-4  :last-child {
+  padding-right: 0;
+}
+.btn-group-nav {
+  padding: 30px 0;
+  clear: both;
+}
+.item-image > img {
+  max-width: 172px;
+  max-height: 172px;
+  min-height: 172px;
+  max-height: 172px;
+}
+#products .products-main .about-us-description .intro{
+  width: 100%;
+  margin-bottom: 30px;
+}
+#products .products-main .thumb-products #group-images {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+#products .products-main .container-fluid .our-projects #our-works-title {
+  position: relative;
+  display: flex;
+}
+#products .products-main .container-fluid .our-projects #our-works-title ul {
+  position: absolute;
+  right: 0;
+}
+#products button.slick-arrow.slick-prev{
+  position: absolute;
+  left: 10px;
+  z-index: 1;
+}
+#products button.slick-arrow.slick-next {
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+}
+#slider-product {
+  padding: 40px 0 100px 0;
+}
+#products .slick-slide {
+  width: 270px;
+  height: 236px;
+  background-size: cover;
+  background-position: center;
+}
+#products .slick-slide img {
+  margin: auto;
+}
+#slider-modal .active-modal {
+  background-size: cover;
+  background-position: center,
+}
+img#slider-modal-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  color: white;
+}
+img#slider-modal-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: white;
+}
+#slider-modal i {
+  top: 25px;
+  position: absolute;
+  right: 10px;
+  background: white;
+  color: #333;
+  font-size: 20px;
+  float: right;
+  right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
+#myModal {
+  padding-right: 0 !important;
+}
+.modal-open {
+  
+}
+.modal-backdrop.in {
+  opacity: 0 !important;
+}
+.glass {
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: crosshair;
+  /* Multiple box shadows to achieve the glass effect */
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  /* hide the glass by default */
+  display: none;
+}
+
+
+/*********
+*** Styles just for DEMO purpose
+*********/
+
+#wrap {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.product {
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+a#send-cv:link {
+  text-decoration: none;
+}
+.map {
+  height: calc(100vh - 65px);
+}
+.map ul.overlay-map {
+  padding: 0;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+.map ul.overlay-map::before {
+  content: '';
+  position: absolute;
+  background: black;
+  top: 0; left: 0;
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 5px black;
+  border-radius: 3px;
+}
+@media (max-width: 767px) {
+  .map ul li i {
+    font-size: 20px !important;
+    padding: 10 !important;
+    min-width: 50px !important;
+  }
+}
+.map ul li {
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.map ul li a {
+  color: white;
+}
+.map ul li a:hover {
+  color: #ff6644;
+}
+.map ul li p {
+  margin-bottom: 0;
+  padding: 0 10px;
+  text-align: left;
+  z-index: 1;
+}
+.map ul li i {
+  z-index: 1;
+  display: block;
+  font-size: 30px;
+  padding: 15px;
+  transition: transform .2s;
+  border: 1px solid #ccc;
+  min-width: 65px;
+}
+.map ul li i:hover {
+  color: #ff6644;
+  transform: scale(1.05);
+}
+@media (max-width: 335px) {
+  .hr-group {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .about-us-blog-thumbnail {
+    width: 100% !important;
+  }
+
+}
+@media only screen and (min-width: 480px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #quotes .content-founder {
+      padding: 0 150px;
+    }
+    main #stats #stats-content {
+      position: absolute;
+      top: 50%;
+      left: 0; right: 0;
+      transform: translate(0, -50%);
+    }
+    #quotes .content-founder {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+    .map {
+      height: calc(100vh - 90px);
+    }
+    section:not(#services) > .content {
+      padding-top: 45px;
+      position: absolute;
+      top: 50%; left: 0; right: 0;
+      transform: translateY(-50%);
+    }
+    section#services > .content {
+      padding-top: 110px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+  #hire-page .content-item {
+    height: 100%;
+  }
+  .masonry {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+  .navbar-default .navbar-right li a {
+    margin-left: 40px;
+  }
+  #content-left img {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main #our-stats {
+    height: 100vh;
+  }
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+    .navbar-default .navbar-right li a {
+      margin-left: 50px;
+    }
+}
+@media (max-width: 479px) {
+  .content-new-blog {
+    display: none !important;
+  }
+  /* #about-us .new-blog {
+    display: block;
+    justify-content: center;
+  } */
+  #hire-page .main-hire .hire-item .thumb-hire img {
+    width: 100%;
+  }
+  p#title-new-blog-479 {
+    float: left;
+    background: #337ab7;
+    padding: 3px;
+    color: white;
+  }
+  #quotes .carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  #our-works .col-xs-6 {
+    width: 100%;
+  }
+  #our-stats .slick-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #our-stats .slick-slide .hr-doc {
+    display: none;
+  }
+  #ok-logo-customer {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 480px) {
+  #hire-page .main-hire .hire-item .thumb-hire {
+    float: left;
+  }
+  main #stats .content-stats p#description {
+    font-size: 20px;
+  }
+  #overlay-newblog-about-us {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  section:not(#banner):not(#contact) {
+    padding: 70px 0 !important;
+  }
+  header .navbar-default {
+    height: 65px;
+  }
+  header .navbar-header {
+    padding: 0 15px;
+  }
+  .navbar-default .container-fluid {
+    height: inherit;
+  }
+  .navbar-default .navbar-header {
+    position: relative;
+    height: inherit;
+  }
+  .navbar-collapse {
+    transition: background 2s linear;
+  }
+  .logo {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  header .logo img {
+    width: 60%;
+  }
+  main #banner #banner-content p#sologan {
+    font-size: 20px;
+  }
+  main #services {
+    height: auto;
+  }
+  main #services p#about {
+    padding-top: 15px
+  }
+  main #services .services-content .services-item p#item-title {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 0 0 0;
+  }
+  main #services .services-content .services-item {
+    padding: 25px;
+  }
+  .navbar-nav {
+    margin: 0;
+    text-align: center;
+  }
+  .navbar-default .navbar-right li a {
+    margin-left: 0;
+  }
+  header button.navbar-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+  }
+  #our-works-title .dropdown .dropdown-menu {
+    left: initial;
+    right: 0;
+  }
+  main #our-stats {
+    padding: 70px 0;
+  }
+  #dropdownMenu1 {
+    background: #ccc;
+    border-radius: 0;
+  }
+  footer .footer-left {
+    margin-bottom: 10px;
+  }
+  #hire-page .banner-hire .content h1 {
+    font-size: 46px;
+  }
+  #hire-page .banner-hire .content {
+    width: 100%;
+  }
+  #products .thumb-products img#thumb-product {
+    width: 100%;
+    max-width: initial !important;
+  }
+  #products .about-us-description {
+    clear: both;
+  }
+  #products #thumb-product {
+    height: 286px !important;
+    max-width: 286px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  #products .about-us {
+    padding: 30px 0 20px 0;
+  }
+  main #our-works .modal-dialog-index .info-modal {
+    margin-top: 20px;
+  }
+  #our-skills #skills .content {
+    padding-top: 50px !important;
+  }
+}
+@media (max-width: 991px) {
+  main #banner #banner-content #banner-title {
+    font-size: 46px !important;
+  }
+  #about-us .container-fluid {
+    position: initial;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  main #our-skills-content .content {
+    padding-top: 40px;
+  }
+  main #our-skills .skills-group {
+    padding-top: 30px;
+  }
+  main #our-skills .carousel-inner .item {
+    display: inline-flex;
+  }
+  #about-us .about-us-blog {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #content-left img {
+      width: 100%;
+  }
+  #about-us {
+    text-align: center;
+  }
+  main #about-us .row {
+    padding: 30px 0;
+  }
+  #hire-page .main-hire .hire-item .thumb-hire {
+    padding-bottom: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #hire-page .main-hire .hire-item .description-hire {
+    clear: both;
+  }
+}
+@media (max-width: 1200px) {
+  main #about-us p#title {
+    padding-top: 25px;
+  }
+  main #services .services-content .services-item {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 768px) {
+  #our-stats #content-stats p#number {
+    padding: 32px 0 12px 0;
+  }
+  .modal-body {
+    height: 100%;
+    background-size: cover !important;
+    padding: 30px 15px;
+  }
+  .logo img {
+    width: 240px;
+    height: 45px;
+  }
+}
+@media (min-width: 992px) {
+  #quotes .vertical-align {
+    width: 90%;
+  }
+  #quotes p#feedback::before, #feedback-customer::before {
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    top: 0; left: 0;
+    transform: translate(-5px, -10px);
+  }
+  #quotes p#feedback::after, #feedback-customer::after {
+    font-family: FontAwesome;
+    content: "\f10e";
+    position: absolute;
+    bottom: 0; right: 0;
+  }
+  #hire-page .main-hire .hire-item {
+    height: 250px;
+  }
+  #hire-page .main-hire .hire-item .thumb-hire img {
+    width: 100%
+  }
+  #hire-page .main-hire .hire-item .group-btn {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  #hire-page .main-hire .hire-item .group-btn button {
+    display: block;
+    width: 170px;
+    outline: none;
+    float: right;
+    background: #ff6644;;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+  }
+  #hire-page .main-hire .hire-item .group-btn button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #hire-page .main-hire .hire-item .group-btn button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  #hire-page .main-hire .hire-item .group-btn button:hover span {
+    padding-right: 25px;
+  }
+
+  #hire-page .main-hire .hire-item .group-btn button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  main #services .one {
+    float: right;
+    padding-right: 10px;
+  }
+  main #services .two {
+    float: left;
+    padding-left: 10px; 
+ }
+}
+@media (min-width: 1200px) {
+  main #about-us {
+    position: relative;
+  }
+  main #services {
+    position: relative;
+    color: black;
+    min-height: 100vh;
+  }
+  /* main #services .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  } */
+  #quotes .vertical-align {
+    padding: 0 10%;
+  }
+  #hire-page .main-hire .thumb-hire {
+    position: relative;
+    top: 50%; transform: translateY(-50%);
+  }
+  #hire-page .main-hire .description-hire {
+    position: relative;
+    top: 50%; transform: translateY(-50%);
+  }
+  main #services .one {
+    float: right;
+    padding-right: 50px;
+  }
+  main #services .two {
+    float: left;
+    padding-left: 50px; 
+ }
+}
+@media (min-width: 1400px) {
+  main #services #services-content, #quotes #founder-content {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container-fluid {
+    width: 1370px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 945px) and (min-width: 768px) {
+  #services p#item-title {
+    min-height: 112px !important;
+  }
+}
